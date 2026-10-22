@@ -3,3 +3,4 @@ enigma_violation_audit.json
 *.audit.json
 *.report.json
 __pycache__
+.local-reverse/
