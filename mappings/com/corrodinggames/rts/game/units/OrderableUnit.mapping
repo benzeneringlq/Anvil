@@ -1,7 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/OrderableUnit
 	FIELD a blockedSlideClearCounter I
 	FIELD A cachedTintPaintAntiAliasColor I
-	FIELD aa lastCollisionTimeSeconds I
+	FIELD aa lastCollisionTick I
 	FIELD aA PENDING_secondNoTurnTimer F
 	FIELD ab reclaimCreditRemainder F
 	FIELD aB groupController Lcom/corrodinggames/rts/game/a/h;
@@ -98,7 +98,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/Orde
 	FIELD Q lastBuildFailMillis I
 	FIELD r moveGoalDriftTolerance I
 	FIELD R attackTarget Lcom/corrodinggames/rts/game/units/am;
-	FIELD s pathFollowSpeed F
+	FIELD s pathRequestCooldown F
 	FIELD S targetSearchCooldown F
 	FIELD t lowPriorityPathFlag Z
 	FIELD T turretAssignTimer F

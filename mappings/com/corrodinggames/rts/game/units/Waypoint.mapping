@@ -3,7 +3,7 @@ CLASS com/corrodinggames/rts/game/units/au com/corrodinggames/rts/game/units/Way
 	FIELD a type Lcom/corrodinggames/rts/game/units/av;
 	FIELD b unitType Lcom/corrodinggames/rts/game/units/as;
 	FIELD c actionId Lcom/corrodinggames/rts/game/units/a/c;
-	FIELD d count I
+	FIELD d buildTechLevel I
 	FIELD e x F
 	FIELD f y F
 	FIELD g unitId J
@@ -12,7 +12,7 @@ CLASS com/corrodinggames/rts/game/units/au com/corrodinggames/rts/game/units/Way
 	FIELD j formationFaceEnemy Z
 	FIELD k repairReclaimRangePadding F
 	FIELD l maxWaypointDuration F
-	FIELD m PENDING_flagM Z
+	FIELD m automatic Z
 	FIELD n addedByAction Z
 	METHOD a getUnitType ()Lcom/corrodinggames/rts/game/units/as;
 	METHOD a setMoveTo (FF)V

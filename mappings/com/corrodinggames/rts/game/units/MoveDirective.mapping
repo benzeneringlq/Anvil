@@ -1,2 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/ad com/corrodinggames/rts/game/units/MoveDirective
 	COMMENT Small resettable unit state block (UNRESOLVED NAME - left obfuscated): 4 booleans + 2 floats, a() resets them (d := true). Roles inferred only from shape; no code evidence for the original name -> intentionally not renamed.
+	FIELD a nanoActive Z
+	FIELD b hasMoveTarget Z
+	FIELD c slowApproach Z
+	FIELD d allowFormationFollow Z
+	FIELD e targetX F
+	FIELD f targetY F
+	METHOD a reset ()V
